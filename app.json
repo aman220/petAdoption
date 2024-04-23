@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Fashion by Native-Dev's",
+    "slug": "petadoption",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/Splashlogo.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aman856.OnBoardingReactNativeApp"
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92a54119-1937-45f9-a6f8-dd6d584d0072"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "owner": "aman856"
+  }
+}
